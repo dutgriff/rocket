@@ -1,12 +1,9 @@
 <template>
   <div id="app">
-    <nav class="navbar" role="navigation" aria-label="main navigation">
+    <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
       <div class="container">
         <div class="navbar-brand">
-          <!--<a class="navbar-item" href="https://bulma.io">
-            <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
-          </a>-->
-          <router-link to="/home" class="navbar-item">Rocket</router-link>
+          <router-link to="/home" class="navbar-item"><img src="/rocket-white.png">Rocket</router-link>
 
           <a role="button" class="navbar-burger burger" v-bind:class="{ 'is-active': navMenuVisible }" v-on:click="toggleNavMenu" 
               aria-label="menu" aria-expanded="false">
