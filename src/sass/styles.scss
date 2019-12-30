@@ -2,6 +2,8 @@
 @import "../../node_modules/bulma/sass/utilities/initial-variables.sass";
 
 $family-primary: "Source Sans Pro", Calibri, Candara, Arial, sans-serif;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
 
 @import "../../node_modules/bulma/bulma.sass";
 
@@ -11,4 +13,14 @@ $family-primary: "Source Sans Pro", Calibri, Candara, Arial, sans-serif;
   }
   font-size: 1.3em;
   font-weight: 700;
+}
+
+#apogee {
+  .tracking-station {
+    .title {
+      margin-bottom: .25em
+    }
+
+    margin-bottom: 1.25em
+  }
 }
