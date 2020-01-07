@@ -6547,7 +6547,12 @@ label.panel-block {
   .navbar .navbar-brand img {
     margin-right: 10px; }
 
-#apogee .tracking-station {
+.message-body .message-body-section {
   margin-bottom: 1.25em; }
-  #apogee .tracking-station .title {
+  .message-body .message-body-section .title {
     margin-bottom: .25em; }
+
+.select.full-width-fix {
+  width: 100%; }
+  .select.full-width-fix select {
+    width: 100%; }

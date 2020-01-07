@@ -6,7 +6,7 @@
       </div>
       <div class="message-body">
         <div v-for="(trackingStation, index) in trackingStations" v-bind:key="index"
-            class="tracking-station">
+            class="message-body-section">
           <h4 class="title is-4 has-text-centered">Tracking Station {{ index + 1 }}</h4>
           <div class="has-text-centered">
             <label class="checkbox" v-if="index != 0">

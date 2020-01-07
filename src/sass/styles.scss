@@ -15,12 +15,18 @@ $fullhd-enabled: false;
   font-weight: 700;
 }
 
-#apogee {
-  .tracking-station {
+.message-body {
+  .message-body-section {
     .title {
-      margin-bottom: .25em
+      margin-bottom: .25em;
     }
+    margin-bottom: 1.25em;
+  }
+}
 
-    margin-bottom: 1.25em
+.select.full-width-fix {
+  width: 100%;
+  select {
+    width: 100%;
   }
 }
